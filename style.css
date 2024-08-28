@@ -1,0 +1,234 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: Algerian;
+}
+
+.l-btn {
+  background-color: #f55951;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #f55951;
+  color: white;
+  font-weight: 500;
+}
+
+.nav-item a {
+  font-weight: 500;
+}
+
+.content {
+  width: 68rem;
+}
+
+h1 .h1-1 {
+  line-height: 1.25;
+  font-weight: bold;
+}
+
+.up-down {
+  animation: up-down linear 4s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+  -webkit-animation: up-down linear 4s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-transform-origin: 50% 50%;
+  -moz-animation: up-down linear 4s;
+  -moz-animation-iteration-count: infinite;
+  -moz-transform-origin: 50% 50%;
+  -o-animation: up-down linear 4s;
+  -o-animation-iteration-count: infinite;
+  -o-transform-origin: 50% 50%;
+  -ms-animation: up-down linear 4s;
+  -ms-animation-iteration-count: infinite;
+  -ms-transform-origin: 50% 50%;
+}
+
+@keyframes up-down {
+  0% {
+    transform: translate(1px, 20px);
+  }
+  24% {
+    transform: translate(1px, 30px);
+  }
+  50% {
+    transform: translate(1px, 12px);
+  }
+  74% {
+    transform: translate(1px, 22px);
+  }
+  100% {
+    transform: translate(1px, 22px);
+  }
+}
+
+@-moz-keyframes up-down {
+  0% {
+    -moz-transform: translate(1px, 20px);
+  }
+  24% {
+    -moz-transform: translate(1px, 30px);
+  }
+  50% {
+    -moz-transform: translate(1px, 12px);
+  }
+  74% {
+    -moz-transform: translate(1px, 22px);
+  }
+  100% {
+    -moz-transform: translate(1px, 22px);
+  }
+}
+
+@-webkit-keyframes up-down {
+  0% {
+    -webkit-transform: translate(1px, 20px);
+  }
+  24% {
+    -webkit-transform: translate(1px, 30px);
+  }
+  50% {
+    -webkit-transform: translate(1px, 12px);
+  }
+  74% {
+    -webkit-transform: translate(1px, 22px);
+  }
+  100% {
+    -webkit-transform: translate(1px, 22px);
+  }
+}
+
+@-o-keyframes up-down {
+  0% {
+    -o-transform: translate(1px, 20px);
+  }
+  24% {
+    -o-transform: translate(1px, 30px);
+  }
+  50% {
+    -o-transform: translate(1px, 12px);
+  }
+  74% {
+    -o-transform: translate(1px, 22px);
+  }
+  100% {
+    -o-transform: translate(1px, 22px);
+  }
+}
+
+@-ms-keyframes up-down {
+  0% {
+    -ms-transform: translate(1px, 20px);
+  }
+  24% {
+    -ms-transform: translate(1px, 30px);
+  }
+  50% {
+    -ms-transform: translate(1px, 12px);
+  }
+  74% {
+    -ms-transform: translate(1px, 22px);
+  }
+  100% {
+    -ms-transform: translate(1px, 22px);
+  }
+}
+
+.cards-section {
+  width: 100%;
+  height: fit-content;
+  background-color: rgb(242, 239, 239);
+  border-top-left-radius: 100%;
+  border-top-right-radius: 100%;
+  /* border */
+  margin-top: 5rem;
+  padding-bottom: 40px;
+}
+
+.card {
+  border: none;
+  width: 23rem;
+}
+
+.card-3:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-1:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-2 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media screen and (max-width: 890px) {
+  .cards-section,
+  .g-collection {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .card {
+    width: 18rem;
+    margin-top: 20px;
+  }
+
+  .section-1 {
+    flex-direction: column;
+  }
+
+  .content {
+    width: fit-content;
+    display: grid;
+    place-items: center;
+  }
+}
+
+@media screen and (max-width: 970px) {
+  body {
+    overflow-x: hidden;
+  }
+}
+
+.card-1,
+.card-3 {
+  background-color: transparent;
+}
+
+.grow-up {
+  margin-top: 7rem;
+}
+
+/* @media screen and (max-width:890px){
+.g-collection{
+  flex-direction: column;
+}
+  } */
+
+body {
+  overflow-x: hidden;
+}
+@media screen and (max-width: 895px) {
+  .main-f {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .heading {
+    width: 10rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .multiple-f {
+    flex-direction: column;
+  }
+}
